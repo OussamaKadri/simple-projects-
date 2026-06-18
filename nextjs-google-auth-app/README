@@ -1,0 +1,14 @@
+ Next.js Google OAuth Authentication System
+
+A robust, Full-Stack Next.js application implementing secure user authentication via Google OAuth 2.0. This project demonstrates advanced backend routing, session management, and secure handling of user profile states.
+
+ Project Access
+Due to GitHub web interface limitations regarding Next.js build caches and security scanning configurations, the complete production-ready codebase is securely hosted and maintained on Google Drive.
+
+ Access Full Source Code Here:** [Google Drive Project Link]
+
+ Core Features
+* **Secure Google OAuth Integrated:** Powered by NextAuth / Google Identity Services for seamless and secure sign-in and sign-out capabilities.
+* **Dynamic Profile Rendering:** Automatically fetches and displays authenticated user metrics, including full name, verified email, and profile avatar.
+* **State & Session Persistence:** Robust handling of protected backend layout routes (`/app`, `/api/auth`) ensuring unauthorized users cannot access inner dashboard modules.
+* **Modern Tech Stack:** Next.js (App Router), Tailwind CSS for streamlined responsive styling, and JavaScript (ES6+). 
