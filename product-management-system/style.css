@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-family: 'Black Ops One', system-ui;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+}
+.sideBar{
+height: 100vh;
+width: 30%;
+order: 2;
+border-left: #560bad 10px solid;
+background-color: white;
+display: flex;
+padding: 10px;
+gap: 15px;
+flex-direction: column;
+align-items: center;
+position: fixed;
+right: 0;
+
+}
+.sideBar head{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+}
+.sideBar head h2{
+    font-size: 45px;
+    font-weight: 900;
+    color: #3a0ca3;
+}
+.out_put{
+   min-height: 100vh; 
+   width: 70%;
+   background-color: #f6f5f6;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   padding-top: 200px;
+}
+small{
+color: white;
+background-color: red;
+font-size: large;
+
+}
+small::before{
+  content: 'Total:';
+}
+.warning{
+  width: fit-content;
+  height: fit-content;
+  color: red;
+  font-size: 14px;
+}
+.hide{
+  display: none;
+}
+
+
+
+/* button style */
+button {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
+   /* inputes style */
+   .coolinput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: static;
+  }
+  
+  .coolinput label.text {
+    font-size: 0.75rem;
+    color: #818CF8;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+  }
+  
+  .coolinput input[type=number].input:focus {
+    outline: none;
+  }
+  .coolinput input[type=number].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+  .out_put > div {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: #818CF8 1px solid;
+    
+  }
+  /* product mangger out puts */
+  .out_put > div .index{
+    padding: 5px;
+    background-color: #818CF8;
+    order: 0;
+    margin: 0;
+    border: 1px solid;
+      }
+
+  .out_put > div .titel2 {
+padding: 5px;
+font-size: 18px;
+display: flex;
+flex-direction: column;
+order: 1;
+margin: 0;
+border: 1px solid;
+  }
+
+  .out_put > div .titel2 div{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #818CF8;
+    text-align: center;
+    margin: 0;
+    order: 1;
+      }
+      .out_put > div .price2 {
+        padding: 5px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        margin: 0;
+        border: 1px solid;
+          }
+        
+          .out_put > div .price2 div{
+            width: fit-content;
+            height: fit-content;
+            padding-left: 2px;
+            padding-right: 2px;
+            background-color: #818CF8;
+            text-align: center;
+            margin: 0;
+            order: 1;
+              }
+              .out_put > div .ads2 {
+                padding: 5px;
+                font-size: 18px;
+                display: flex;
+                flex-direction: column;
+                order: 4;
+                margin: 0;
+                border: 1px solid;
+                  }
+                
+                  .out_put > div .ads2 div{
+                    width: fit-content;
+                    height: fit-content;
+                    padding-left: 2px;
+                    padding-right: 2px;
+                    background-color: #818CF8;
+                    text-align: center;
+                    margin: 0;
+                    order: 1;
+                      }
+                      .out_put > div .tax2 {
+                        padding: 5px;
+                        font-size: 18px;
+                        display: flex;
+                        flex-direction: column;
+                        order: 5;
+                        margin: 0;
+                        border: 1px solid;
+                          }
+                        
+                          .out_put > div .tax2 div{
+                            width: fit-content;
+                            height: fit-content;
+                            padding-left: 2px;
+                            padding-right: 2px;
+                            background-color: #818CF8;
+                            text-align: center;
+                            margin: 0;
+                            order: 1;
+                              }
+                              .out_put > div .dis2 {
+                                padding: 5px;
+                                font-size: 18px;
+                                display: flex;
+                                flex-direction: column;
+                                order: 6;
+                                margin: 0;
+                                border: 1px solid;
+                                  }
+                                
+                                  .out_put > div .dis2 div{
+                                    width: fit-content;
+                                    height: fit-content;
+                                    padding-left: 2px;
+                                    padding-right: 2px;
+                                    background-color: #818CF8;
+                                    text-align: center;
+                                    margin: 0;
+                                    order: 1;
+                                      }
+                                      .out_put > div .category2 {
+                                        padding: 5px;
+                                        font-size: 18px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        order: 2;
+                                        margin: 0;
+                                        border: 1px solid;
+                                          }
+                                        
+                                          .out_put > div .category2 div{
+                                            width: fit-content;
+                                            height: fit-content;
+                                            padding-left: 2px;
+                                            padding-right: 2px;
+                                            background-color: #818CF8;
+                                            text-align: center;
+                                            margin: 0;
+                                            order: 1;
+                                              }
+                                              .out_put > div .total {
+                                                padding: 5px;
+                                                font-size: 18px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                order: 7;
+                                                margin: 0;
+                                                border: 1px solid;
+                                                  }
+                                                
+                                                  .out_put > div .total div{
+                                                    width: fit-content;
+                                                    height: fit-content;
+                                                    padding-left: 2px;
+                                                    padding-right: 2px;
+                                                    background-color: #818CF8;
+                                                    text-align: center;
+                                                    margin: 0;
+                                                    order: 1;
+                                                      }
+                                            
+
+.out_put > div .trach_con {
+  order: 8;
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+  align-self: center;
+  
+}     
+.out_put >div .trach_con .trach {
+width: 50px;
+height: 50px;
+font-size: 20px;
+font-weight: 600;
+
+}                           
+.out_put >div .trach_con .trach::after{
+  content: "delet";
+}
+  
+  
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product mangment</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="sideBar">
+    <HEAD>
+        <h2> Creat a Product</h2>
+        *you should add all the information below
+        <div class="warning"></div>
+    </HEAD>
+    <div class="coolinput">
+        <label for="input" class="text">Titel:</label>
+        <input type="text" placeholder=" Write the Titel of the Produnct" name="input" class="input" id="Titel">
+    </div>
+    <div class="coolinput">
+        <label for="input" class="text">Price:</label>
+        <input type="number" placeholder="Write the price ..." name="input" class="input" id="price" onkeyup="getTotal()">
+    </div>
+    <div class="coolinput">
+        <label for="input" class="text">Taxes:</label>
+        <input type="number" placeholder="Write here the Tax" name="input" class="input" id="Taxes" onkeyup="getTotal()">
+    </div>
+    
+    <div class="coolinput">
+        <label for="input" class="text">Ads:</label>
+        <input type="number" placeholder="Write the ads ..." name="input" class="input" id="Ads" onkeyup="getTotal()" >
+    </div>
+    <div class="coolinput">
+        <label for="input" class="text">Discount</label>
+        <input type="number" placeholder="Write the Discount ..." name="input" class="input" id="dis" onkeyup="getTotal()">
+    </div>
+<small></small>
+    <div class="coolinput">
+        <label for="input" class="text">Cont:</label>
+        <input type="number" placeholder="Write here the count .. " name="input" class="input" id="Cont" >
+    </div>
+    <div class="coolinput">
+        <label for="input" class="text">Catogery:</label>
+        <input type="text" placeholder="Write here the category" name="input" class="input" id="Catogery">
+    </div>
+    
+    <button id="Creat"> Creat
+    </button>
+</div>
+<div class="out_put" id="op">
+<!-- <tbody>
+    <tr>
+        <th</th>
+    </tr>
+</tbody> -->
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
