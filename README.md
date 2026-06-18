@@ -8,7 +8,7 @@ Welcome to my central repository for foundational projects, web utilities, and e
 
 | # | Project Name | Description | Tech Stack | Link to Code |
 | :-: | :--- | :--- | :--- | :--- |
-| 01 | **AI Image Generator** | A web page that connects to the OpenAI API to generate 3 unique images from a text prompt. | HTML, CSS, JS, OpenAI API | [View Code](./Ai20%image20%generatore) |
+| 01 | **AI Image Generator** | A web page that connects to the OpenAI API to generate 3 unique images from a text prompt. | HTML, CSS, JS, OpenAI API | [View Code](./Ai%20image%20generatore) |
 | 02 | **[Project 2 Name]** | Brief description of your second simple project. | HTML, CSS | [View Code](./02-project-folder) |
 | 03 | **[Project 3 Name]** | Brief description of your third simple project. | Python / JS | [View Code](./03-project-folder) |
 
