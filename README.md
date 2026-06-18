@@ -22,8 +22,15 @@ Welcome to my central repository for foundational projects, web utilities, and e
 * **Features:** Generates 3 distinct images simultaneously, features a fully responsive grid design, and handles asynchronous fetch requests.
 * **How it works:** Enter a creative prompt, click generate, and the page dynamically renders the visual assets returned from the OpenAI DALL-E endpoint.
 
- 
-![AI Generator Preview](./01-ai-image-generator/screenshot.png)
+ ### 📦 02. Product Management Web Application
+* **Folder Location:** `./product-management-system`
+* * ****Video and Screenshoorts** ' https://youtu.be/kl3mgvkPTgU '
+* **Features:**
+    * **Dynamic Calculations:** Automatically computes the final `Total` price based on inputted Price, Taxes, Ads, and Discounts.
+    * **CRUD Functionality:** Allows adding a product with strict category/count rules and removing items dynamically via a delete trigger.
+    * **Structured UI:** Dual-panel layout splitting data input fields from the active product monitoring table.
+* **Tech Stack:** HTML5 (Custom Forms), CSS3 (Flexbox/Grid layout with modern shadow framing), Pure JavaScript (DOM Manipulation & Local Math Logic).
+
 
 ---
 
