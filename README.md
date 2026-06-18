@@ -10,7 +10,7 @@ Welcome to my central repository for foundational projects, web utilities, and e
 | :-: | :--- | :--- | :--- | :--- |
 | 01 | **AI Image Generator** | A web page that connects to the OpenAI API to generate 3 unique images from a text prompt. | HTML, CSS, JS, OpenAI API | [View Code](./Ai%20image%20generatore) |
 | 02 | **Product Management System** | A web utility to manage product inventories, automatically calculating total prices after taxes and discounts. | HTML, CSS, JavaScript | [View Code](./product-management-system) |
-| 03 | **[Project 3 Name]** | Brief description of your third simple project. | Python / JS | [View Code](./03-project-folder) |
+| 03 | **interactive-anatomy-gym-guide** |Interactive Vite Anatomy Gym Guide |  JS/ next.js /  tailwind css | [View Code](./interactive-anatomy-gym-guide) |
 
 ---
 
@@ -30,6 +30,15 @@ Welcome to my central repository for foundational projects, web utilities, and e
     * **CRUD Functionality:** Allows adding a product with strict category/count rules and removing items dynamically via a delete trigger.
     * **Structured UI:** Dual-panel layout splitting data input fields from the active product monitoring table.
 * **Tech Stack:** HTML5 (Custom Forms), CSS3 (Flexbox/Grid layout with modern shadow framing), Pure JavaScript (DOM Manipulation & Local Math Logic).
+
+
+### 🏋️‍♂️ 03. Interactive Anatomy & Gym Guide
+* **Folder Location:** `./interactive-anatomy-gym-guide`
+* **Features:**
+    * **Interactive Mapping (Hover Interaction):** Users can hover over different muscle groups on a visual human body diagram to instantly view technical muscle names.
+    * **Targeted Exercise Suggestion (Click Trigger):** Clicking a specific muscle dynamically opens a dedicated footer/modal panel packed with recommended gym workouts for that area.
+    * **Modern Bundling:** Built with **Vite** for blazing-fast development reload times and optimized production asset delivery.
+* **Tech Stack:** HTML5 (Interactive hotspots), CSS3 (Smooth transitions and overlay positioning), JavaScript (Event listeners and dynamic UI state handling), Vite.
 
 
 ---
