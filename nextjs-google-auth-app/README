@@ -6,6 +6,8 @@ A robust, Full-Stack Next.js application implementing secure user authentication
 Due to GitHub web interface limitations regarding Next.js build caches and security scanning configurations, the complete production-ready codebase is securely hosted and maintained on Google Drive.
 
  Access Full Source Code Here:https://drive.google.com/drive/folders/1ZVvyByVTmvILL5fnF1-2PNIqfRn9nCGe?usp=drive_link
+Or  You can  Directly see  the  work  vidio presentation  clicking on  the  link https://youtu.be/6fCDRCnaGsE
+
 
  Core Features
 * **Secure Google OAuth Integrated:** Powered by NextAuth / Google Identity Services for seamless and secure sign-in and sign-out capabilities.
