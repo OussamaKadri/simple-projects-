@@ -17,7 +17,7 @@ Welcome to my central repository for foundational projects, web utilities, and e
 ## 🚀 Detailed Project Showcases
 
 ### 🎨 01. AI Image Generator
-* **Folder Location:** `./01-ai-image-generator`
+* **Folder Location:** `./Ai20%image20%generatore`
 * ****Video and Screenshoorts** ' https://youtu.be/XM1hJxHwKGc '   
 * **Features:** Generates 3 distinct images simultaneously, features a fully responsive grid design, and handles asynchronous fetch requests.
 * **How it works:** Enter a creative prompt, click generate, and the page dynamically renders the visual assets returned from the OpenAI DALL-E endpoint.
