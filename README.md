@@ -34,6 +34,7 @@ Welcome to my central repository for foundational projects, web utilities, and e
 
 ### 🏋️‍♂️ 03. Interactive Anatomy & Gym Guide
 * **Folder Location:** `./interactive-anatomy-gym-guide`
+*  ****Video and Screenshoorts** ' https://youtu.be/Pi0M5is0GEs?si=GXW1I9sOCs5BCydF'
 * **Features:**
     * **Interactive Mapping (Hover Interaction):** Users can hover over different muscle groups on a visual human body diagram to instantly view technical muscle names.
     * **Targeted Exercise Suggestion (Click Trigger):** Clicking a specific muscle dynamically opens a dedicated footer/modal panel packed with recommended gym workouts for that area.
